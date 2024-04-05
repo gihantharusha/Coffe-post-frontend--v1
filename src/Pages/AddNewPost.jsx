@@ -31,7 +31,7 @@ const AddNewPost = () => {
   }
 
   const deleteUser = ()=>{
-    axios.post(https://coffe-post-backend-v1.onrender.com/deleteUsers?id=${localStorage.getItem("id")}`)
+    axios.post(`https://coffe-post-backend-v1.onrender.com/deleteUsers?id=${localStorage.getItem("id")}`)
     .then(response=>{
       setPath("/")
     })
