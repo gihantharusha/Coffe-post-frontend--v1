@@ -14,7 +14,7 @@ const Home = (props) => {
   
   // 6607b7b6fe4d3ace30fbd3ec
   const searchFirend = ()=>{
-    axios.get(`http://localhost:5000/findUserByName?name=${firendSearch}`)
+    axios.get(`https://coffe-post-backend-v1.onrender.com/findUserByName?name=${firendSearch}`)
     .then(response=>{
       console.log(response.data)
       setfirends(response.data)

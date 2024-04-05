@@ -8,7 +8,7 @@ const Addfirend = () => {
   const [fName, setFname] = useState()
 
   const click = ()=>{
-    axios.post(`http://localhost:5000/addFirend?name=${fName}&id=${localStorage.getItem("id")}&fid=${localStorage.getItem("fid")}`)
+    axios.post(`https://coffe-post-backend-v1.onrender.com/addFirend?name=${fName}&id=${localStorage.getItem("id")}&fid=${localStorage.getItem("fid")}`)
     .then(response=>{
       console.log(response)
     })

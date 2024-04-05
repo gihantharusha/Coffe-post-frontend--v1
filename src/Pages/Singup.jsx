@@ -10,7 +10,7 @@ const Singup = () => {
 
   const click = () => {
     axios
-      .post(`http://localhost:5000/addUsers?name=${name}&password=${password}`)
+      .post(`https://coffe-post-backend-v1.onrender.com/addUsers?name=${name}&password=${password}`)
       .then((res) => {
         localStorage.setItem("id", res.data._id)
       });

@@ -8,7 +8,7 @@ const FirendsPost = () => {
   const [res, setRes] = useState([])
 
   useEffect(()=>{
-    axios.get(`http://localhost:5000/getPostById?id=${localStorage.getItem("choose_f_id")}`)
+    axios.get(`https://coffe-post-backend-v1.onrender.com/getPostById?id=${localStorage.getItem("choose_f_id")}`)
     .then(response=>{
       console.log(response)
       setRes(response.data)

@@ -12,14 +12,14 @@ const AddNewPost = () => {
   const [path, setPath] = useState("/addnewpost")
 
   useEffect(()=>{
-    axios.get(`http://localhost:5000/getPostById?id=${localStorage.getItem("id")}`)
+    axios.get(`https://coffe-post-backend-v1.onrender.com/getPostById?id=${localStorage.getItem("id")}`)
     .then(response=>{
       setRes(response.data)
     })
   },[refresh])
 
   const send = ()=>{
-    axios.post(`http://localhost:5000/addPost?post=${post}&id=${localStorage.getItem("id")}`)
+    axios.post(`https://coffe-post-backend-v1.onrender.com/addPost?post=${post}&id=${localStorage.getItem("id")}`)
     .then(response=>{
       
       if(refresh === 1){
@@ -31,7 +31,7 @@ const AddNewPost = () => {
   }
 
   const deleteUser = ()=>{
-    axios.post(`http://localhost:5000/deleteUsers?id=${localStorage.getItem("id")}`)
+    axios.posthttps://coffe-post-backend-v1.onrender.com/deleteUsers?id=${localStorage.getItem("id")}`)
     .then(response=>{
       setPath("/")
     })

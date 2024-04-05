@@ -9,7 +9,7 @@ const Firends = () => {
   const [firend_name , setFirend_name] = React.useState()
 
   React.useEffect(()=>{
-    axios.get(`http://localhost:5000/getfirendsById?id=${localStorage.getItem("id")}`)
+    axios.get(`https://coffe-post-backend-v1.onrender.com/getfirendsById?id=${localStorage.getItem("id")}`)
     .then(response=>{
       console.log(response)
       setFirends(response.data)

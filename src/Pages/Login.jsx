@@ -10,7 +10,7 @@ const Login = () => {
 
   const click = () => {
     axios
-      .get(`http://localhost:5000/checkUsers?name=${name}&password=${password}`)
+      .get(`https://coffe-post-backend-v1.onrender.com/checkUsers?name=${name}&password=${password}`)
       .then((response) => {
         if(response.data.status === "ok"){
           localStorage.setItem("id", response.data.id)
