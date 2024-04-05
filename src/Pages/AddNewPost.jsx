@@ -31,7 +31,7 @@ const AddNewPost = () => {
   }
 
   const deleteUser = ()=>{
-    axios.posthttps://coffe-post-backend-v1.onrender.com/deleteUsers?id=${localStorage.getItem("id")}`)
+    axios.post(https://coffe-post-backend-v1.onrender.com/deleteUsers?id=${localStorage.getItem("id")}`)
     .then(response=>{
       setPath("/")
     })
@@ -56,34 +56,7 @@ const AddNewPost = () => {
           {res?.map(e=>(
             <li>{e.post}</li>
           ))}
-          {/* <li>
-            <p>
-              Hello i'm gihan,
-              <br />
-              how are you?
-            </p>
-          </li>
-          <li>
-            <p>
-              Hello i'm gihan,
-              <br />
-              how are you?
-            </p>
-          </li>
-          <li>
-            <p>
-              Hello i'm gihan,
-              <br />
-              how are you?
-            </p>
-          </li>
-          <li>
-            <p>
-              Hello i'm gihan,
-              <br />
-              how are you?
-            </p>
-          </li> */}
+
         </ul>
       </div>
       {/* post-section */}
