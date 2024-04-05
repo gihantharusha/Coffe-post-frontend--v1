@@ -1,0 +1,48 @@
+.firendsPost{
+    max-width: 100%;
+}
+
+.firendsPost .top-section{
+    background-color: #980aff;
+    display: flex;
+    padding: 3rem 2rem;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    max-width: inherit;
+}
+
+.firendsPost .top-section .delete{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.firendsPost .top-section .delete:hover{
+    background-color: #500486;
+}
+
+
+.firendsPost .top-section .delete img{
+    width: 40px;
+}
+
+.firendsPost .posts{
+    padding: 12rem 2rem;
+}
+
+.firendsPost .posts ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.firendsPost .posts ul li{
+    width: 100%;
+    border: 1px solid black;
+    padding: 2rem;
+    border-radius: 20px;
+    font-size: 20px;
+}

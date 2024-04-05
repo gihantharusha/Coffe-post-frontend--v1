@@ -1,0 +1,47 @@
+/* purple-#980aff */
+/* blue-#0d03f8 */
+
+.singup .first-section {
+    text-align: center;
+}
+
+.singup form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0 10%;
+}
+
+
+.singup form input{
+    font-size: 20px;
+    border: 1px solid black;
+    color: black;
+    padding: 5px 1rem;
+    border-radius: 10px;
+}
+
+.singup form input::placeholder{
+    color: black;
+}
+
+.singup form a {
+    text-align: center;
+    color: blue;
+}
+
+.singup form .submit{
+    
+    background: #980aff;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 4px 0;
+}
+
+
+.singup form .submit:hover{
+    background: #580892;
+}

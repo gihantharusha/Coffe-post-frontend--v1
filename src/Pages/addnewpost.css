@@ -1,0 +1,96 @@
+/* 980aff */
+
+.addnewpost{
+    max-width: 100%;
+}
+
+.addnewpost .top-section{
+    background-color: #980aff;
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: inherit;
+}
+
+.addnewpost .top-section .logout{
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.addnewpost .top-section .logout:hover{
+    background-color: #790ac9;
+}
+
+.addnewpost .top-section .logout img{
+    width: 35px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.addnewpost .top-section .logout img:hover{
+    background: #790ac9;
+
+}
+
+.addnewpost .post-section{
+    padding: 16rem 2rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.addnewpost .post-section ul {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.addnewpost .post-section ul li{
+    border: 1px solid black;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+
+.addnewpost .bottom-section{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: inherit;
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid black;
+}
+
+.addnewpost .bottom-section textarea{
+    width: 90%;
+    font-size: 20px;
+    padding: 2px 1rem;
+    
+}
+
+.addnewpost .bottom-section .send{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #980aff;
+}
+
+.addnewpost .bottom-section .send:hover{
+    background-color: #790ac9;
+}
+
+.addnewpost .bottom-section .send img{
+    width: 30px;
+}

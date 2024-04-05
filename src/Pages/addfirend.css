@@ -1,0 +1,55 @@
+.add-a-firend{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.add-a-firend .top-section{
+    background-color: #980aff;
+    padding: 3rem;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-a-firend .page-section{
+    padding: 3rem 2rem;
+}
+
+.add-a-firend .page-section .input{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 2rem;
+}
+
+.add-a-firend .page-section .input label{
+    font-size: 20px;
+}
+
+.add-a-firend .page-section .input input{
+    font-size: 18px;
+    padding: 10px 1rem;
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+
+.add-a-firend .page-section .input input::placeholder{
+    color: black;
+}
+
+.add-a-firend .page-section a button{
+    background-color: #980aff;
+    color: white;
+    border: none;
+    font-size: 17px;
+    padding: 8px 1rem;
+    border-radius: 20px;
+}
+
+.add-a-firend .page-section a button:hover{
+    background-color: #5d0999;
+    cursor: pointer;
+}

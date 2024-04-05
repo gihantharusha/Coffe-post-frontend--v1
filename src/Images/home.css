@@ -1,0 +1,101 @@
+.home .top-section{
+    display: flex;
+    background-color: #980aff;
+    padding: 2rem;
+    gap: 1rem;
+    align-items: center;
+}
+
+.home .top-section .logo{
+    width: 60px;
+}
+
+.home .top-section input{
+    width: 70%;
+    font-size: 20px;
+    height: 30px;
+    padding: 0 1rem;
+    border: 2px solid black;
+    border-radius: 20px;
+    outline: none;
+}
+
+.home .top-section .search{
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 3px;
+}
+
+.home .top-section .search:hover{
+    background-color: #670fa7;
+}
+
+.home .second-section ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+
+}
+
+.home .second-section ul li{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.home .second-section ul li:hover{
+    background: rgb(177, 177, 177);
+}
+
+.home .second-section ul li p{
+    font-size: 20px;
+}
+
+.home .second-section ul li img{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.home h2{
+    margin-left: 20px;
+}
+
+
+.home .result ul{
+    
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.home .result ul li{
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #980aff;
+    
+}
+
+
+.home .result ul li button{
+    background: #0d03f8;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.home .result ul li button:hover{
+    background: #110cb4;
+}
+
